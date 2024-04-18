@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+.up-navig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.up-navig > a {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.up-navig > a:hover {
+    border-bottom: 2px solid rgb(252, 206, 4);
+}
+
+.up-navig > span {
+    color: rgb(2, 2, 2);
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.news {
+
+    background-color: rgb(24, 24, 24);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.novost {
+    margin-left: 300px;
+    font-size: 4em;
+    color: white;
+}
+
+.neiro {
+    margin-left: 300px;
+    font-size: 2em;
+    color: rgb(252, 206, 4);
+}
+
+.nav-center1 {
+    background-color: black;
+
+    /* padding-bottom: 400px; */
+}
+.nav-center {
+    position: absolute;
+    left: 10%;
+    background-image: url('/SITE/images/image\ 7.png');
+    width: 80%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+.text1 {
+    font-size: 82px;
+    color: rgb(252, 206, 4);
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 17.5%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text2 {
+    font-size: 102px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 38%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text3 {
+    font-size: 85px;
+    color: white;
+    margin-left: 400px;
+    cursor: pointer;
+    position: absolute;
+    top: 47%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.nav-center2 {
+    position: absolute;
+    left: 10%;
+    background-image: url('/SITE/images/image\ 41.png');
+    width: 80%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.text {
+    font-size: 42px;
+    color: rgb(252, 206, 4);
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text-1 {
+    font-size: 102px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text-2 {
+    font-size: 102px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 68%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text4 {
+    font-size: 102px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 75%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.text-3 {
+    font-size: 102px;
+    color: rgb(252, 206, 4);
+    margin-left: 400px;
+    cursor: pointer;
+    position: absolute;
+    top: 86%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .up-navig {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .up-navig > a {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .up-navig > span {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .up-navig {
+        padding: 10px;
+    }
+
+    .up-navig > a {
+        font-size: 16px;
+    }
+
+    .up-navig > span {
+        font-size: 18px;
+    }
+}

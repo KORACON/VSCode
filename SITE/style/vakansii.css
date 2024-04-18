@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.up-navig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+.up-navig > a {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.up-navig > a:hover {
+    border-bottom: 2px solid rgb(252, 206, 4);
+}
+
+.up-navig > span {
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+    margin-left: auto;
+}
+
+.o-nas {
+
+    background-color: rgb(24, 24, 24);
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.novost {
+    margin-left: 300px;
+    font-size: 4em;
+    color: white;
+}
+
+.neiro {
+    margin-left: 300px;
+    font-size: 2em;
+    color: rgb(252, 206, 4);
+}
+
+.o-nas-text {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+
+.novost2 {
+    margin-left: 650px;
+    margin-right: 650px;
+    font-size: 20px;
+    color: white;
+}
+
+.format-text {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.img-banner {
+    margin-top: 100px;
+    margin-left: 550px;
+    width: 750px;
+    height: 450px;
+}
+
+.sochi {
+    font-size: 32px;
+    color: rgb(252, 206, 4);
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    margin-left: 840px;
+    margin-top: 70px;
+}
+
+.number-tel {
+    color: white;
+    margin-top: 30px;
+    font-size: 32px;
+    margin-left: 720px;
+}
+
+
+@media (max-width: 768px) {
+    .up-navig {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .up-navig > a {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .up-navig > span {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .up-navig {
+        padding: 10px;
+    }
+
+    .up-navig > a {
+        font-size: 16px;
+    }
+
+    .up-navig > span {
+        font-size: 18px;
+    }
+}

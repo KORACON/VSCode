@@ -1,0 +1,95 @@
+body {
+    background-image: url('/SITE/images/pngtree-fast-food-burger-fried-chicken-advertising-background-picture-image_2445022.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navigation {
+    background-color: rgb(8, 8, 8);
+}
+
+.nav-center {
+    background-image: url('/SITE/images/pngtree-fast-food-burger-fried-chicken-advertising-background-picture-image_2445022.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-center>a {
+    padding: 10px 20px;
+    font-size: 28px;
+    background-color: #181818;
+    color: white;
+    border: none;
+    border-style: solid;
+    cursor: pointer;
+}
+
+
+.up-navig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    padding: 10px 20px;
+}
+
+.up-navig > a {
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.up-navig > a:hover {
+    border-bottom: 2px solid rgb(252, 206, 4);
+}
+
+.up-navig > span {
+    color: white;
+    font-size: 24px;
+    margin-left: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .up-navig {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .up-navig > a {
+        margin: 5px 0;
+        font-size: 18px;
+    }
+
+    .up-navig > span {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .up-navig {
+        padding: 10px;
+    }
+
+    .up-navig > a {
+        font-size: 16px;
+    }
+
+    .up-navig > span {
+        font-size: 18px;
+    }
+}
