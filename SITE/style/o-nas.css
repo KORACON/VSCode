@@ -10,6 +10,7 @@
     align-items: center;
     background-color: rgb(255, 255, 255);
     padding: 10px 20px;
+    height: 50px;
 }
 
 .up-navig > a {
@@ -47,6 +48,7 @@
     margin-left: 300px;
     font-size: 2em;
     color: rgb(252, 206, 4);
+
 }
 
 .o-nas-text {
