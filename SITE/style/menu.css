@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(/SITE/fonts/Montserrat-Black.ttf);
+}
+
 .up-navig {
     display: flex;
     justify-content: space-between;
@@ -37,6 +42,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    
 }
 
 .text1 {
@@ -49,6 +55,7 @@
     left: 17.5%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    font-family: Montserrat-Black;
 }
 
 .text2 {
@@ -57,10 +64,11 @@
     margin-left: 300px;
     cursor: pointer;
     position: absolute;
-    top: 38%;
-    left: 20%;
+    top: 40%;
+    left: 23.05%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    font-family: Montserrat-Black;
 }
 
 .text3 {
@@ -69,10 +77,11 @@
     margin-left: 400px;
     cursor: pointer;
     position: absolute;
-    top: 47%;
-    left: 22%;
+    top: 50%;
+    left: 24.04%;
     transform: translate(-50%, -50%);
     padding: 10px;
+    font-family: Montserrat-Black;
 }
 
 .navig-panel {
