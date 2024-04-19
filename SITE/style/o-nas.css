@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+@font-face {
+    font-family: Montserrat-Black;
+    src: url(/SITE/fonts/Montserrat-Black.ttf);
+}
+
 .up-navig {
     display: flex;
     justify-content: space-between;
@@ -62,6 +67,7 @@
     margin-left: 650px;
     color: rgb(252, 206, 4);
     text-align: justify;
+    font-family: Montserrat-Black;
 }
 
 .ist2 {
@@ -95,10 +101,11 @@
 }
 
 .neiro1 {
-    margin-left: 650px;
+    margin-left: 640px;
     font-size: 30px;
     color: rgb(252, 206, 4);
     text-align: justify;
+    font-family: Montserrat-Black;
 }
 
 .novost2 {
