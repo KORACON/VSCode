@@ -43,6 +43,7 @@
     color: white;
 }
 
+
 .neiro {
     margin-left: 300px;
     font-size: 2em;
@@ -60,6 +61,7 @@
     margin-right: 650px;
     font-size: 20px;
     color: white;
+    text-align: justify;
 }
 
 .format-text {
