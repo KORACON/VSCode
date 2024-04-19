@@ -6,6 +6,15 @@ body {
 }
 
 
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+}
 
 * {
     margin: 0;
@@ -18,7 +27,7 @@ body {
 }
 
 .nav-center {
-    background-image: url('/SITE/images/pngtree-fast-food-burger-fried-chicken-advertising-background-picture-image_2445022.jpg');
+    background-image: url('/SITE/images/бургер\ 1.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -26,16 +35,47 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    
+}
+
+.text1 {
+    font-size: 200px;
+    color: rgb(252, 206, 4);
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: Montserrat-ExtraBold;
+}
+
+.text2 {
+    font-size: 170px;
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .nav-center>a {
     padding: 10px 20px;
     font-size: 28px;
+    margin-bottom: 40px;
     background-color: #181818;
     color: white;
     border: none;
     border-style: solid;
     cursor: pointer;
+    position: absolute;
+    top: 70%;
+    font-family: Montserrat-ExtraBold;
 }
 
 
@@ -52,7 +92,8 @@ body {
     font-size: 24px;
     color: white;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .up-navig > a:hover {
@@ -63,6 +104,7 @@ body {
     color: white;
     font-size: 24px;
     margin-left: auto;
+    font-family: Montserrat-ExtraBold;
 }
 
 

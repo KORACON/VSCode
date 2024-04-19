@@ -9,6 +9,16 @@
     src: url(/SITE/fonts/Montserrat-Black.ttf);
 }
 
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+}
+
 .up-navig {
     display: flex;
     justify-content: space-between;
@@ -22,7 +32,8 @@
     font-size: 24px;
     color: rgb(0, 0, 0);
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .up-navig > a:hover {
@@ -33,6 +44,7 @@
     color: rgb(5, 5, 5);
     font-size: 24px;
     margin-left: auto;
+    font-family: Montserrat-ExtraBold;
 }
 
 .nav-center {
@@ -118,29 +130,32 @@
 }
 
 .gl-opis {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     margin-left: -550px;
     max-width: 200px;
     max-height: 50px;
+    font-family: Montserrat-Bold;
 }
 
 .cena {
     color: rgb(252, 206, 4);
-    font-size: 42px;
+    font-size: 32px;
     margin-left: 400px;
     margin-top: -230px;
     max-width: 200px;
     max-height: 50px;
+    font-family: Montserrat-Bold;
 }
 
 .opis {
-    font-size: 16px;
+    font-size: 14px;
     color: white;
     margin-left: -550px;
     margin-top: -150px;
     max-width: 350px;
     max-height: 120px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .vkysn-cont {
@@ -168,8 +183,8 @@
 }
 
 .img-banner {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin-top: 50px;
     margin-left: 800px;
 }

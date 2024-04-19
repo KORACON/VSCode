@@ -9,6 +9,16 @@
     src: url(/SITE/fonts/Montserrat-Black.ttf);
 }
 
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+}
+
 .up-navig {
     display: flex;
     justify-content: space-between;
@@ -22,7 +32,8 @@
     font-size: 24px;
     color: rgb(0, 0, 0);
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .up-navig > a:hover {
@@ -33,6 +44,7 @@
     color: rgb(5, 5, 5);
     font-size: 24px;
     margin-left: auto;
+    font-family: Montserrat-ExtraBold;
 }
 
 
@@ -78,6 +90,7 @@
     font-size: 20px;
     color: white;
     text-align: justify;
+    font-family: Montserrat-Bold;
 }
 
 .ist3 { 
@@ -86,6 +99,7 @@
     font-size: 20px;
     color: white;
     text-align: justify;
+    font-family: Montserrat-Bold;
 }
 
 .ist4 {
@@ -94,12 +108,13 @@
     font-size: 20px;
     color: white;
     text-align: justify;
+    font-family: Montserrat-Bold;
 }
 
 .o-nas-text {
     background-color: black;
     padding-top: 100px;
-    padding-bottom: 900px;
+    padding-bottom: 600px;
 }
 
 .neiro1 {
@@ -116,6 +131,7 @@
     font-size: 20px;
     color: white;
     text-align: justify;
+    font-family: Montserrat-Bold;
 }
 
 .format-text {
@@ -124,8 +140,8 @@
 }
 
 .img-banner {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     margin-top: 50px;
     margin-left: 800px;
 }

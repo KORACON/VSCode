@@ -9,6 +9,16 @@
     src: url(/SITE/fonts/Montserrat-Black.ttf);
 }
 
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+}
+
 .up-navig {
     display: flex;
     justify-content: space-between;
@@ -22,7 +32,8 @@
     font-size: 24px;
     color: rgb(0, 0, 0);
     padding: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .up-navig > a:hover {
@@ -33,6 +44,7 @@
     color: rgb(5, 5, 5);
     font-size: 24px;
     margin-left: auto;
+    font-family: Montserrat-ExtraBold;
 }
 
 .o-nas {
@@ -69,6 +81,7 @@
     font-size: 20px;
     color: white;
     text-align: justify;
+    font-family: Montserrat-Bold;
 }
 
 .format-text {
@@ -96,6 +109,7 @@
     display: inline-block;
     margin-left: 840px;
     margin-top: 70px;
+    font-family: Montserrat-Bold;
 }
 
 .number-tel {
@@ -103,6 +117,7 @@
     margin-top: 30px;
     font-size: 32px;
     margin-left: 720px;
+    font-family: Montserrat-Bold;
 }
 
 

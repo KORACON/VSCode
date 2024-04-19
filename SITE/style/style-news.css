@@ -9,6 +9,15 @@
     src: url(/SITE/fonts/Montserrat-Black.ttf);
 }
 
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBold;
+    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+}
 
 .up-navig {
     display: flex;
@@ -22,8 +31,9 @@
 .up-navig > a {
     font-size: 24px;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 5px;
     margin-left: 10px;
+    font-family: Montserrat-ExtraBold;
 }
 
 .up-navig > a:hover {
@@ -34,6 +44,7 @@
     color: rgb(2, 2, 2);
     font-size: 24px;
     margin-left: auto;
+    font-family: Montserrat-ExtraBold;
 }
 
 .news {
