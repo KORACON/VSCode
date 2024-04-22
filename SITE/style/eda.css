@@ -124,26 +124,33 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     background-color: black;
+    justify-content: space-between;
 }
 
 .item-souse {
-    display: flex;
+    margin-left: 100px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    
 }
 
 .name-souse {
-    display: flex;
+    padding-right: 300px;
+    margin-top: -200px;
+    margin-left: 300px;
     color: white;
-    font-size: 40px;
+    font-size: 35px;
+    font-family: Montserrat-Bold;
 }
 
 .cena-souse {
-    display: flex;
-    font-size: 35px;
+    margin-top: -200px;
+    margin-left: 300px;
+    font-size: 30px;
     color: rgb(252, 206, 4);
+    font-family: Montserrat-Bold;
 }
-
-
-
 
 
 
