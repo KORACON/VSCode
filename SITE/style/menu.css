@@ -168,10 +168,11 @@
 .vkysn1 {
     color: rgb(252, 206, 4);
     font-size: 40px;
-    margin-left: 600px;
+    margin-left: 550px;
     margin-right: 350px;
     display: inline-block;
     padding-bottom: 50px;
+    font-family: Montserrat-Black;
 }
 
 .vkysn2 {
@@ -180,6 +181,8 @@
     margin-left: 550px;
     margin-right: 550px;
     display: inline-block;
+    text-align: justify;
+    font-family: Montserrat-ExtraBold;
 }
 
 .img-banner {
