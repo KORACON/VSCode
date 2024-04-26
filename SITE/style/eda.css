@@ -117,40 +117,49 @@
     border-bottom: 2px solid rgb(252, 206, 4);
 }
 
+/* Бургеры */
+
+
+
+
+
+
+/* Комбо */
+
+
+
+
+
+
+/* Десерты */
+
+
+
+
+
+
+/* Напитки */
+
+
+
+
+
+
+/* Салаты */
+
+
+
+
+
+
+
 /* Соусы */
 
-.souse-cont {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    background-color: black;
-    justify-content: space-between;
-}
 
-.item-souse {
-    margin-left: 100px;
-    height: 300px;
-    width: 300px;
-    display: grid;
-    
-}
 
-.name-souse {
-    padding-right: 300px;
-    margin-top: -200px;
-    margin-left: 300px;
-    color: white;
-    font-size: 35px;
-    font-family: Montserrat-Bold;
-}
 
-.cena-souse {
-    margin-top: -200px;
-    margin-left: 300px;
-    font-size: 30px;
-    color: rgb(252, 206, 4);
-    font-family: Montserrat-Bold;
-}
+
+
 
 
 
