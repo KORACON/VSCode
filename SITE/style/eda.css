@@ -156,6 +156,7 @@
 /* Соусы */
 
 .souse-cont {
+    color: white;
     display: flex;
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -180,8 +181,9 @@
 }
 
 .souse-card {
+    border: solid;
+    border-color: white;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -196,7 +198,7 @@
     font-family: Montserrat-Black;
     border-radius: 10px;
     font-size: 20px;
-    background-color: rgba(255, 255, 0, 0.514);
+    background-color: rgba(255, 255, 0, 0.555);
     display: inline-block;
     text-align: center;
 }
