@@ -162,6 +162,7 @@
     height: auto;
 }
 
+
 .name-burger {
     font-family: Montserrat-Black;
     border-radius: 10px;
@@ -665,6 +666,15 @@
 }
 
 
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -696,3 +706,4 @@
         font-size: 18px;
     }
 }
+
