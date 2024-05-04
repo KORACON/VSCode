@@ -117,46 +117,14 @@
     border-bottom: 2px solid rgb(252, 206, 4);
 }
 
-.menu-buy {
-    background-color: black;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 4fr;
-}
 
-.menu-img {
-    text-align: center;
-    margin-left: 100px;
-}
 
-.gl-opis {
-    font-size: 25px;
-    color: white;
-    margin-left: -550px;
-    max-width: 200px;
-    max-height: 50px;
-    font-family: Montserrat-Bold;
-}
 
-.cena {
-    color: rgb(252, 206, 4);
-    font-size: 32px;
-    margin-left: 400px;
-    margin-top: -230px;
-    max-width: 200px;
-    max-height: 50px;
-    font-family: Montserrat-Bold;
-}
 
-.opis {
-    font-size: 14px;
-    color: white;
-    margin-left: -550px;
-    margin-top: -150px;
-    max-width: 350px;
-    max-height: 120px;
-    font-family: Montserrat-ExtraBold;
-}
+
+
+
+
 
 .vkysn-cont {
     padding-top: 300px;
