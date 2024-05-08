@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: Montserrat-Black;
-    src: url(/SITE/fonts/Montserrat-Black.ttf);
+    src: url(fonts/Montserrat-Black.ttf);
 }
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url(/SITE/fonts/Montserrat-Bold.ttf);
+    src: url(fonts/Montserrat-Bold.ttf);
 }
 
 @font-face {
     font-family: Montserrat-ExtraBold;
-    src: url(/SITE/fonts/Montserrat-ExtraBold.ttf);
+    src: url(fonts/Montserrat-ExtraBold.ttf);
 }
 
 .up-navig {
@@ -76,7 +76,7 @@
 .nav-center {
     position: absolute;
     left: 10%;
-    background-image: url('/SITE/images/image\ 7.png');
+    background-image: url('images/image\ 7.png');
     width: 80%;
     height: 100vh;
     background-size: cover;
@@ -127,7 +127,7 @@
 .nav-center2 {
     position: absolute;
     left: 10%;
-    background-image: url('/SITE/images/image\ 41.png');
+    background-image: url('images/image\ 41.png');
     width: 80%;
     height: 100vh;
     background-size: cover;
