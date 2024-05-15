@@ -202,12 +202,173 @@
     font-size: 20px;
     text-align: justify;
 }
+.burger-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1800px;
+}
+
+.burger-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.burger-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger-card>p {
+    height: auto;
+}
+
+
+.name-burger {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-burger {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-burger>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-burger {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-burger {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
 
 
 
 
 /* Комбо */
 
+.kombo-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.kombo-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.kombo-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-kombo {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-kobmo {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-kombo>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-kombo {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-kombo {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
 .kombo-cont {
     color: white;
     display: flex;
@@ -372,6 +533,86 @@
     font-size: 20px;
     text-align: justify;
 }
+.desert-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.desert-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.desert-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-desert {
+    margin-left: -10px;
+    width: 320px;
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 17px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-desert {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-desert>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-desert {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-desert {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
 
 
 
@@ -456,12 +697,168 @@
     font-size: 20px;
     text-align: justify;
 }
+.drink-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.drink-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.drink-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-drink {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-drink {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-drink>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    height: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-drink {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-drink {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
 
 
 
 
 /* Салаты */
 
+.salat-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.salat-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.salat-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-salat {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-salat {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-salat>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-salat {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-salat {
+    font-family: Montserrat-ExtraBold;
+    font-size: 16px;
+    text-align: justify;
+}
 .salat-cont {
     color: white;
     display: flex;
@@ -625,6 +1022,84 @@
     font-size: 20px;
     text-align: justify;
 }
+.souse-cont {
+    color: white;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1200px;
+}
+
+.souse-column {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    height: 40%;
+}
+
+.bottom-column {
+    margin-top: 40px;
+    margin-left:  auto;
+    margin-right: auto;
+    display: flex;
+    flex: 1;
+    max-height: 480px;
+}
+
+.souse-card {
+    border: solid;
+    border-color: white;
+    border-radius: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px 40px 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-souse {
+    font-family: Montserrat-Black;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.555);
+    display: inline-block;
+    text-align: center;
+}
+
+.image-souse {
+    position: relative;
+    /* padding: 20px; */
+    width: 80px;
+    height: 200px;
+}
+
+.image-souse>img {
+    position: absolute;
+     left: 60%;
+    width: 200px;
+    width: 200px;
+}
+
+.polosa {
+    text-align: center;
+}
+
+.cena-souse {
+    font-family: Montserrat-Black;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.opis-souse {
+    font-family: Montserrat-ExtraBold;
+    font-size: 20px;
+    text-align: justify;
+}
 
 
 
@@ -675,6 +1150,15 @@
 
 
 
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -706,4 +1190,6 @@
         font-size: 18px;
     }
 }
+
+
 
